@@ -1,22 +1,19 @@
-import logo from './logo.svg';
+import Fragement from 'react'
+import ReactLogo from './ReactLogo.js';
 import './App.css';
+import ReactFeatures from './ReactFeatures.js'
+import Button from './Button.js'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <ReactLogo/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <ReactFeatures/>
+        <Button/>
       </header>
     </div>
   );
