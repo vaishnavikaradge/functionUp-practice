@@ -1,0 +1,65 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tilting Navigation</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="circle-container">
+	<!-- Contains another div having 2 buttons. Each button has an icon -->
+    <div class = "circle">
+        <button id="close">
+            <i class="fas fa-times"></i>
+        </button>
+        <button id="open">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+      </div>
+
+      <div class="content">
+	<!-- Contains 2 sections. Section one has a heading, small and paragraph element -->
+    <font face = "Arial" color = "brown"><i><h1>An Amazing Article</h1></i></font>
+    <small><i>Florin pop</i></small>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tenetur explicabo dolor quisquam corporis minus qui animi laboriosam in. Reprehenderit laudantium quasi impedit tenetur asperiores reiciendis nisi quis fugit eum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis velit doloremque temporibus praesentium earum rem repellat debitis aspernatur eius soluta pariatur officia sint, omnis eaque odit dolorum perferendis, ratione rerum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem in nisi voluptatibus, consequuntur, id cum similique perferendis, aut pariatur est ratione labore illo veritatis facere voluptate placeat modi atque impedit?</p>
+	<!-- Section two has a smaller heading, related image and a paragraph -->
+    <h3>My Dog</h3>
+    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/American_Eskimo_Dog.jpg/1280px-American_Eskimo_Dog.jpg" height="50%" width="50%" alt="Dog">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem in nobis at, ipsa totam ducimus nesciunt suscipit, deleniti non quo illum quae dolorem officia eum libero optio sed ipsum maiores?
+    Sunt recusandae voluptas adipisci similique dolor eum a, voluptatibus eius, accusamus quos reprehenderit ducimus. Corporis, enim? Eum qui veniam quas expedita. Suscipit cumque nemo rerum modi ab recusandae dignissimos rem.
+    Doloribus, repellat. Ad odio nam eum consequatur nostrum non? Quasi praesentium enim, recusandae laborum dignissimos veniam cum in aspernatur quaerat, eum excepturi ipsum architecto molestiae, iusto placeat animi. Sunt, iure.</p>
+    </div>
+
+    </div>
+
+    <nav>
+	<!-- Contains 3 unordered list items. Each item has an icon and a relevant hyperlinked text-->
+    <ul>
+        <li>
+            <button id ="Home">
+                <i class="fas fa-home">Home</i>
+            </button>
+        </li>
+        <li>
+            <button id ="About">
+                <i class="fas fa-user-alt">About</i>
+            </button>
+        </li>
+        <li>
+            <button id ="Contact">
+                <i class="fas fa-envelope">Contact</i>
+            </button>
+        </li>
+    </ul>
+    </nav>
+
+    <script src="script.js"></script>
+  </body>
+</html>
