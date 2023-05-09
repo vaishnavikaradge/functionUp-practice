@@ -1,0 +1,37 @@
+@media screen and (max-width:420px){
+
+    .gallery{
+
+        display:flex;
+        margin-top: auto;
+        font-size: 2.5rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+
+    p{
+
+        display : bottom;
+    }
+
+
+}
+
+@media screen and (min-width : 1024px){
+
+    .gallery{
+
+        display:flex;
+        margin-top: auto;
+        font-size: 2.5rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+
+
+
+
+}
+
