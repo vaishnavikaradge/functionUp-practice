@@ -6,6 +6,7 @@ import Home from './component/home/home';
 import Register from './component/register/Register';
 import AboutUs from './component/about/AboutUs';
 import Login from './component/login/Login';
+import Delete from './component/molecule/Delete';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <Route path='/Login' element={<Login/>}/>
       
       </Routes>
+      <Delete/>
+
       
     </div>
   );
